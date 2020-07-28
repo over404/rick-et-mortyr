@@ -17,8 +17,8 @@
 # Install
 **For Windows Only**
 
-First, clone the repo
+First, download the zip file
 
-![About](https://ibb.co/QXXJWNx)
+![About](https://i.postimg.cc/VLGL3QHr/Screenshot-2020-07-28-Anti-D0xx-rick-et-mortyr.png)
 
 
