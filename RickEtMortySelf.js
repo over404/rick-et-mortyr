@@ -11,9 +11,10 @@ var bot = new Discord.Client();
 
 bot.on('ready', () => {
   console.clear();
-	console.log("[Logs] Connecté à Discord via le token réussie !")
-	console.log("[Logs] Pseudo: ' + bot.user.username")
+	console.log('[Logs] Connecté à Discord via le token réussie !')
+	console.log('[Logs] Pseudo: ' + bot.user.username)
 	console.log('[Logs] Discord API Version ' + Discord.version)
+	console.log('[Credit] Selfbot par Punchnox | Refait par M349')
     bot.user.setPresence({
     });
 });
@@ -32,9 +33,9 @@ bot.on('message', message => {
             .addField("hack", "Commandes de hack")
             .addField("mod", "Commandes de modération")
             .addField("user", "Commandes d'utilisateur")
-            .setImage('http://25.media.tumblr.com/aa8f015ad8a24dcd93cb75a0a6895e21/tumblr_n03ozbCdxT1trvvoqo1_500.gif')
+            .setImage('https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif')
             .addField("divers", "Commandes diverses")
-            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
+            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭 | Refait par M349', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
 
             
             
@@ -65,8 +66,8 @@ bot.on('message', message => {
             .addField("channelsadd [text]", "Crée beaucoup de channels")
             .addField("adminroleadd", "Crée un rôle administrateur")
             .addField("renameall [text]", "Renomme tout le monde")
-            .setImage('https://media.giphy.com/media/l378BzHA5FwWFXVSg/giphy.gif')
-            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
+            .setImage('https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif')
+            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭 | Refait par M349', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
 
             
             
@@ -88,11 +89,8 @@ bot.on('message', message => {
             let cmdList = new Discord.RichEmbed()
             .setDescription("MENU HACK")
             .setColor("#000000")
-            .addField("/ddos [ip]", "D0S une IP")
-            .addField("/iplog [lien]", "Envoie un IP logger cammouflé")
-            .addField("/token [mention]", "trouve le token de la personne mentionnée")
-            .setImage('https://i.kym-cdn.com/photos/images/original/000/997/254/bb8.gif')
-            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
+            .setImage('https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif')
+            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭 | Refait par M349', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
 
             
             
@@ -108,8 +106,8 @@ if (message.content.startsWith(prefix + 'mod')){
             .addField("kick [mention]", "Kick un utilisateur")
             .addField("ban [mention]", "Ban un utilisateur")
             .addField("purge [nb]", "Supprime un certain nombre de message")
-            .setImage('https://i.pinimg.com/originals/76/31/61/7631615ffece7d31602021ea3615c3d7.gif')
-            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
+            .setImage('https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif')
+            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭 | Refait par M349', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
 
             
             
@@ -137,8 +135,8 @@ if (message.content.startsWith(prefix + 'user')){
             .addField("dnd", 'Met ton statut en "ne pas déranger"(pastille rouge)')
             .addField("invisible", 'Met ton statut en "invisible"(pastille grise)')
             .addField("MultiStream", 'commande MultiStream')
-            .setImage('https://media.giphy.com/media/bk2sCmUUTUiVW/giphy.gif')
-            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
+            .setImage('https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif')
+            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭 | Refait par M349', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
 
             
             
@@ -164,8 +162,8 @@ if (message.content.startsWith(prefix + 'user')){
             .addField("nsfw", "Envoie une image nsfw")
             .addField("gif [text]", "Envoie un gif")
             .addField("giflist", "Pour afficher toute la liste des gifs disponibles")
-            .setImage('https://media.giphy.com/media/xTiTnKH3dDw1ww53R6/giphy.gif')
-            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
+            .setImage('https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif')
+            .setFooter('Selfbot by 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭 | Refait par M349', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
 
             
             
@@ -179,7 +177,7 @@ if (message.content.startsWith(prefix + "token")) {
     if (message.deletable) message.delete()
 
     var question = message.content.split(" ").join(" ").slice(7)
-    var tableauball = ["NTU4NjgxODczNDcyMDI4Njcy.D3aZOw.XWSbRuF8GwII1d_uO3A0OMDpBigqsdq", "NTUxNDY2MzYwMqsdqdqdjYyMzYxMTA5.D3q8Rw.7egR6Z2FRrJVJQo22KPJw94sqLY", "NTMwMTMyODIyMzMwMTc5NTg1.D0nsTQ._YtyrCwHOsVQRkk1XCFjkxZPMzA", ]
+    var tableauball = ["Removed", "Removed", "Removed", ]
 
     let ball_embed = new Discord.RichEmbed()
       .setColor("#000000")
@@ -187,7 +185,7 @@ if (message.content.startsWith(prefix + "token")) {
       .setDescription("" + question + "")
       .addField("Token Trouvé", "" + tableauball[Math.floor(Math.random() * 3)] + "")
       .setThumbnail(bot.user.iconURL)
-      .setImage('https://media1.tenor.com/images/a3f8a8144ec5ecc83ba5dd0ce39325e6/tenor.gif?itemid=9707766')
+      .setImage('https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif')
     return message.channel.send(ball_embed).catch(e => {});
 
   }
@@ -212,40 +210,6 @@ message.channel.send("Tu n'as pas les permissions");
 })
  }); 
  }
-
-
-
-
-
-                 if (message.content === prefix + "nsfw"){
-          if (message.author.id == client.user.id)
-            message.delete();
-    var max = 5511;
-    var min = 1000;
-    var MathRan = Math.floor(Math.random() * (max - min + 0)) + min;
-    var MathLoL = Math.round(MathRan);
-    if (message.channel.nsfw) {
-        message.channel.send(": CHANNEL NSFW STP ^^ ")
-    } else {
-        var randomname = Math.floor(Math.random() * (99999999999999999999 - 11111111111111111111 + 0)) + 11111111111111111111;
-    }
-    
-    let embed = new Discord.RichEmbed()   
-        .setColor(0xd36b00)
-        .setTitle('**Picture Of Ass**')
-        .setDescription("[L'image Charge Pas Click Ici !](http://media.obutts.ru/butts_preview/0" + MathLoL + ".jpg)")
-            .setImage("http://media.obutts.ru/butts_preview/0" + MathLoL + ".jpg")
-        embed.setTimestamp();       
-        message.channel.send(embed);
-    
-    }
-
-
-
-
-
-
-
 
 if (message.content.startsWith(prefix + 'serverinfos')){
 message.delete()
@@ -286,7 +250,7 @@ function checkDays(date) {
         .addField("__Roles:__", message.guild.roles.size, true)
         .addField("__Date de création:__", `${message.channel.guild.createdAt.toUTCString().substr(0, 16)} (${checkDays(message.channel.guild.createdAt)})`, true)
         .setThumbnail(message.guild.iconURL)
-.setFooter('Selfbot made By 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
+.setFooter('Selfbot made By 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭 | Refait par M349', 'https://cdn.discordapp.com/attachments/627432311704649739/631924472915558401/BigAromaticEthiopianwolf-max-1mb.gif');
 
 
 
@@ -380,20 +344,6 @@ message.channel.send("Fermeture du Selfbot...")
 process.exit()
 
     }
-
-
-
-
-
-
-  if (message.content.startsWith(prefix + 'deface')) {
-    if (message.deletable) message.delete();
-    message.guild.setRegion('brasil')
-    message.guild.setIcon(args.join(""));
-    message.guild.setName('HACKED BY 𝙥𝙪𝙣𝙘𝙝𝙣𝙤𝙭')
-    message.channel.send("Deface réussi :white_check_mark:")
-  }
-
 
 if(message.content.startsWith(prefix + "purge")) {
     let args = message.content.split(" ").slice(1);
