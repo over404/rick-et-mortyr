@@ -22,6 +22,19 @@
 
 2) Extract the zip file, you can use [7zip](https://www.7-zip.org), [Winrar](https://www.win-rar.com/start.html?&L=10) or the default one included
 
+3) Open the folder where you extracted the selfbot.
+
+4) Click on the blue file button and click on Open Powershell
+
+5) In Powershell, copy this
+
+`npm i discord.js@11.6.3`
+
+Bravo! The selfbot is ready
+
+
+
+
 
 
 
