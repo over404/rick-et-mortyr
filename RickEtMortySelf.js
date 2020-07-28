@@ -11,8 +11,9 @@ var bot = new Discord.Client();
 
 bot.on('ready', () => {
   console.clear();
-	console.log("///////////////////// Selfbot By punchnox /////////////////////")
-	console.log(`> Selfbot login : ${bot.user.username} | ${bot.user.id}`)
+	console.log("[Logs] Connecté à Discord via le token réussie !")
+	console.log("[Logs] Pseudo: ' + bot.user.username")
+	console.log('[Logs] Discord API Version ' + Discord.version)
     bot.user.setPresence({
     });
 });
