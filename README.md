@@ -13,7 +13,7 @@
 
 **Stream**
 
-**NSFW**
+**MultiStream**
 # Install
 **For Windows Only**
 1) Download the zip file
