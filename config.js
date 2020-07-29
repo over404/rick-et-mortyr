@@ -4,8 +4,8 @@
 Vous devez Remplir les champs ci-dessous en laissant les guillemets
 */
 
-       const token = "Tu mets ton token"; ///tu met ton token ici
-       const prefix = "tu mets ton prefix"  ///tu met ton prefix ici 
+       const token = "Tu mets ton token"; ///tu mets ton token ici
+       const prefix = "tu mets ton prefix"  ///tu mets ton prefix ici 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
