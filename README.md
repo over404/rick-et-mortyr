@@ -24,9 +24,13 @@
 
 ![About](https://i.postimg.cc/Z5hkxPqc/Capture.png)
 
-3) After extracting the folder on the desktop, 
+3) Check if you have [Nodejs](https://www.nodejs.org) on your computer, if you don't, install the program.
 
-4) Check if you have [Nodejs](https://www.nodejs.org) on your computer, if you don't, install the program.
+4) Open the folder, and run install packages.
+
+5) Then open config.js and put your Discord token and the prefix of your choice.
+
+6) Open start.bat
 
 
 
