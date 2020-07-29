@@ -20,7 +20,7 @@
 
 ![About](https://i.postimg.cc/VLGL3QHr/Screenshot-2020-07-28-Anti-D0xx-rick-et-mortyr.png)
 
-2) Extract the zip file, you can use [7zip](https://www.7-zip.org), [Winrar](https://www.win-rar.com/start.html?&L=10) or the default one included.For this demonstration, I'm using Winrar, but it will be the same for the others. Just take the file, and put it on the desktop.
+2) Extract the zip file, you can use [7zip](https://www.7-zip.org), [Winrar](https://www.win-rar.com/start.html?&L=10) or the default one included.For this demonstration, I'm using Winrar, but it will be the same for the others. Just take the folder, and put it on the desktop.
 
 ![About](https://i.postimg.cc/Z5hkxPqc/Capture.png)
 
