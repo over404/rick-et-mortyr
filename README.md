@@ -24,13 +24,11 @@
 
 3) Open the folder where you extracted the selfbot.
 
-4) Click on the blue file button and click on Open Powershell
+4) Lanch install packages.bat
 
-5) In Powershell, copy this
+5) Wait ...
 
-`npm i discord.js@11.6.3`
-
-Bravo! The selfbot is ready
+Good ! The selfbot is ready
 
 
 
