@@ -26,7 +26,7 @@
 
 3) After extracting the folder on the desktop, 
 
-4) Check if you have [Nodejs](nodejs.org) on your computer, if you don't, install the program.
+4) Check if you have [Nodejs](www.nodejs.org) on your computer, if you don't, install the program.
 
 
 
