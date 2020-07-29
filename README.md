@@ -1,7 +1,7 @@
 # Selfbot
 **This project is a fork of the [RickEtMorty](https://github.com/punchnox/rick-et-morty) Selfbot.I removed some options that I deemed "useless".**
 
-**Warning, using a self-bot is against Discord API terms of use, I am not responsible for your actions.**
+**Warning, using a self-bot is against Discord API terms of use, I am not responsible for your actions.I don't encourage their use, but if you still want to install it, you can follow the explanations to install it correctly and to avoid errors**
 # Removed options
 **DDOS (lol)**
 
