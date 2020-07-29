@@ -24,6 +24,11 @@
 
 ![About](https://i.postimg.cc/Z5hkxPqc/Capture.png)
 
+3) After extracting the folder on the desktop, 
+
+4) Check if you have [Nodejs](nodejs.org) on your computer, if you don't, install the program.
+
+
 
 
 
